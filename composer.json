@@ -1,0 +1,38 @@
+{
+    "name": "olla/sentinel",
+    "type": "library",
+    "description": "Olla APi",
+    "keywords": ["REST", "GRAPHQL"],
+    "homepage": "https://olla.tech/api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olla Tech",
+            "email": "wawan@olla.tech",
+            "homepage": "https://olla.tech"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "olla/surface": "*"
+    },
+    "require-dev": {
+        
+    },
+    "conflict": {
+    },
+    "suggest": {
+    
+    },
+    "autoload": {
+        "psr-4": { "Olla\\Sentinel\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Olla\\Sentinel\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
